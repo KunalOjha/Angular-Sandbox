@@ -12,4 +12,9 @@ export class ShoppingList {
         new Ingredient('Banana', 5),
         new Ingredient('Cheese', 1)
     ];
+
+    addToList(newIngredient: Ingredient) {
+        console.log(newIngredient);
+        this.ingredients.push(newIngredient);
+    }
 }
